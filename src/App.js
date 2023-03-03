@@ -86,14 +86,14 @@ class App extends Component {
       preparedMembersArray,
       totalMoneyPaid
     }, async () => {
-      await axios.post("http://127.0.0.1:5000/update", this.state).then(res => {
+      await axios.post("https://splitwiseapi.herokuapp.com/update", this.state).then(res => {
         console.log("res", res);
       })
     })
   }
 
   handleTest = async() => {
-    await axios.get("http://127.0.0.1:5000/", this.state).then(res => {
+    await axios.get("https://splitwiseapi.herokuapp.com/", this.state).then(res => {
       console.log("res", res);
     })
   }
