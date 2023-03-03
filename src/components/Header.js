@@ -4,9 +4,10 @@ import React from 'react';
 export const Header = () => {
 
     return(
-        <div style={{ fontFamily: "Poiret One", fontSize: "44px", fontWeight: 550, marginLeft: "100px", marginTop: "30px"}}>
+        //update font for settlr
+        <div style={{ fontFamily: "Open Sans", fontSize: "44px", fontWeight: 550, marginLeft: "105px", marginTop: "30px"}}>
             {/* <img class="img-responsive img-centered" src={settlr} alt="" width={150} height={100}></img> */}
-            Settlr
+            Settler
         </div>
     )
 }

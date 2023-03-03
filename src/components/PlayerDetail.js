@@ -112,7 +112,7 @@ class PlayerDetail extends Component {
                 {this.state.playerNameUpdateDisable && (<FormHelperText>Enter chips value</FormHelperText>)}
             </FormControl>
 
-            <FormControl sx={{ m: 1}} size="small" style={{ marginLeft: "60px"}}>
+            <FormControl sx={{ m: 1}} size="small" style={{ marginLeft: "10px"}}>
               <InputLabel htmlFor="outlined-adornment-amount">Buy-in</InputLabel>
               <OutlinedInput
                 id="outlined-adornment-amount"
